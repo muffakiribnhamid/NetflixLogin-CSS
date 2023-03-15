@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    color: #333;
+
+
+}
+.main {
+    justify-content: center;
+    margin-top: 100px;
+    height: 500px;
+    background-color: #0B1318 ;
+    border-radius: 5px;
+}
+.main h1 {
+    color: white;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    margin: 30px 40px;
+}
+.main .email {
+    height: 40px;
+    width: 300px;
+    margin: 0px 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+
+
+}
+.main .password {
+    height: 40px;
+    width: 300px;
+    margin: 0px 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #333333;
+    color: white;
+    
+
+}
+.main .button {
+    height: 40px;
+    width: 300px;
+    margin: 0px 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+
+}
+.main .check {
+    color: white;
+    margin-left:  5px;
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.main p {
+    color: white;
+    margin-left:  140px;
+    margin-top: 20px;
+    font-size: 10px;
+    display: inline-block;
+}
+.main .box {
+    color: white;
+    margin-left:  40px;
+    size: 10px;
+    margin-top: 22px;
+    display: inline-block;
+}
+.main .signup {
+    color: white;
+    margin-left:  5px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+}
+.main .signup a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main .captcha {
+    color: white;
+    width: 300px;
+    margin-left:  40px;
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.main .captcha a {
+    color: rgb(68, 0, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
